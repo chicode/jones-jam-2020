@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+@import "reset.scss";
+
+$font-family-base: Courier Prime, monospace;
+$background-color: hsl(0, 0, 10);
+$foreground-color: #196909;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background: $background-color;
+  color: $foreground-color;
+
+  padding: 2rem;
+}
+
+button, input {
+  border: 1px solid white;
+}
