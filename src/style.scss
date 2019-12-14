@@ -2,16 +2,25 @@
 @import "reset.scss";
 
 $font-family-base: Courier Prime, monospace;
+
 $background-color: hsl(0, 0, 10);
-$foreground-color: #196909;
+$foreground-color: #d4d4d4;
+$accent-color: #71b693;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
   background: $background-color;
-  color: $foreground-color;
-
   padding: 2rem;
+  background: $background-color;
+}
+
+* {
+  color: $foreground-color;
+}
+
+h1 {
+  color: $accent-color;
 }
 
 button, input {
